@@ -47,20 +47,8 @@ ul {
 /* Header
 ---------------------------*/
 
-.headerblock {
-  width: 80%;
-  margin: 0 10% 0 10%;
-}
-
-header .floatheader {
-  position: relative;
-}
-
-header #pglogo {
-  width: 3.5em;
-  float: left;
-  margin: 0;
-  padding-top: 5px;
+header {
+  margin-bottom: 50px;
 }
 
 header h1 {
