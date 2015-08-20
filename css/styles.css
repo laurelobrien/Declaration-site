@@ -1,0 +1,109 @@
+/* General Styles
+---------------------------*/
+
+body {
+  padding: 100px 0 100px 0;
+  margin-bottom: 50px;
+}
+
+footer {
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+}
+
+h1 {
+  font: 2em Helvetica, Avenir, Arial, sans-serif;
+  font-weight: 900;
+}
+
+hr.hrthick {
+  border-top: none;
+  border-bottom: solid 3px #000;
+}
+
+hr.hrthin {
+  border-top: none;
+  border-bottom: solid 1px #000;
+}
+
+.container {
+  max-width: 800px;
+}
+
+p {
+  font: 1em 'Garamond', Georgia, serif;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header
+---------------------------*/
+
+.headerblock {
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
+
+header .floatheader {
+  position: relative;
+}
+
+header #pglogo {
+  width: 3.5em;
+  float: left;
+  margin: 0;
+  padding-top: 5px;
+}
+
+header h1 {
+  letter-spacing: -0.05em;
+  font-size: 4em;
+  margin: 0 0 10px 0;
+  float: right;
+}
+
+header p {
+  text-align: right;
+}
+
+nav ul {
+  text-align: right;
+  margin: 10px -10px 10px auto;
+}
+
+nav ul li, nav ul span {
+  font: 1.2em Helvetica, Avenir, Arial, sans-serif;
+  display: inline;
+  font-weight: 300;
+  margin: 0 7px 0 7px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+nav ul span {
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav ul li a:hover {
+  color: aquamarine;
+}
+
+header hr.hrthick {
+  clear:both;
+}
+
+
+/* Homepage
+---------------------------*/
+
+
+/* Footer
+---------------------------*/
