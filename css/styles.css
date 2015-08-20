@@ -3,17 +3,9 @@
 
 body {
   padding: 100px 0 100px 0;
-  margin-bottom: 50px;
-}
-
-footer {
-  height: 50px;
-  position: absolute;
-  bottom: 0;
-}
 
 h1 {
-  font: 2em Helvetica, Avenir, Arial, sans-serif;
+  font: 3em Helvetica, Avenir, Arial, sans-serif;
   font-weight: 900;
 }
 
@@ -28,15 +20,28 @@ hr.hrthin {
 }
 
 .container {
-  max-width: 800px;
+  width: 65%;
+  margin: 0 17.5% 0 17.5%;
 }
 
 p {
-  font: 1em 'Garamond', Georgia, serif;
+  font: 1.1em 'adobe-garamond-pro', Georgia, serif;
+}
+
+p a {
+  text-decoration: none;
+  color: #000;
+  border-bottom: solid 2px aquamarine;
+}
+
+p a:hover {
+  border-bottom: none;
+  color: aquamarine;
 }
 
 ul {
   list-style: none;
+  margin: 0;
 }
 
 /* Header
