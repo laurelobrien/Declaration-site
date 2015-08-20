@@ -7,3 +7,36 @@ fluid image header
   height: 200px;
   overflow: hidden;
 }
+
+ul social media icons
+-----------------------
+<ul class="socialmedia">
+        <li id="farleft"><a href="http://instagram.com/laurelobrien"><img alt="Instagram" id="socialmedia-icon" src="svg/instagram.svg"></a></li>
+        <li><a href="http://github.com/laurelobrien"><img alt="GitHub" id="socialmedia-icon" src="svg/github.svg"></a></li>
+        <li><a href="http://twitter.com/laureljan"><img alt="Twitter" id="socialmedia-icon" src="svg/twitter.svg"></a></li>
+        <li><a href="http://facebook.com/laurel.paperghost"><img alt="Facebook" id="socialmedia-icon" src="svg/facebook.svg"></a></li>
+      </ul>
+
+ul.socialmedia li {
+  display: inline;
+}
+
+ul.socialmedia #socialmedia-icon {
+  width: 40px;
+  margin: 0 10px 0 10px;
+}
+
+ul.socialmedia #farleft img {
+  margin-left: 0;
+}
+
+ul.socialmedia {
+  margin: 50px 0 0 0;
+  padding: 0;
+}
+
+
+temp container bounds
+------------------------
+/* temporary bg to see container bounds */
+  background-color: #e6e6e6; 
