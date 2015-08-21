@@ -6,8 +6,13 @@ body {
 } 
 
 h1 {
-  font: 3em Helvetica, Avenir, Arial, sans-serif;
+  font-family: 'lust', Goudy, Georgia, serif;
+  font-size: 3em;
   font-weight: 900;
+}
+
+hr {
+  clear: both;
 }
 
 hr.hrthick {
@@ -45,7 +50,7 @@ ul {
   margin: 0;
 }
 
-/* Header
+/* Header + Nav
 ---------------------------*/
 
 header {
@@ -53,22 +58,29 @@ header {
 }
 
 header h1 {
-  letter-spacing: -0.05em;
+  letter-spacing: -0.02em;
   font-size: 4em;
-  margin: 0 0 10px 0;
-  float: right;
+  margin: 25px 0 25px 0;
+  text-align: center;
 }
 
 header p {
   text-align: right;
 }
 
-nav ul {
-  text-align: right;
-  margin: 10px -10px 10px auto;
+nav ul.folionav {
+  float: left;
+  margin: 0;
+  padding: 5px 0 10px 0;
 }
 
-nav ul li, nav ul span {
+nav ul.miscnav {
+  float: right;
+  margin: 0;
+  padding: 5px 0 10px 0;
+}
+
+nav ul li {
   font: 1.2em Helvetica, Avenir, Arial, sans-serif;
   display: inline;
   font-weight: 300;
@@ -77,8 +89,12 @@ nav ul li, nav ul span {
   letter-spacing: 0.03em;
 }
 
-nav ul span {
-  margin: 0;
+nav ul.folionav li.leftside {
+  margin-left: 0;
+}
+
+nav ul.miscnav li.rightside {
+  margin-right: 0;
 }
 
 nav ul li a {
@@ -90,6 +106,9 @@ nav ul li a:hover {
   color: aquamarine;
 }
 
+hr.topline {
+  margin-bottom: 10px;
+}
 header hr.hrthick {
   clear:both;
 }

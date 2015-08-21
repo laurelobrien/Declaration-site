@@ -40,3 +40,24 @@ temp container bounds
 ------------------------
 /* temporary bg to see container bounds */
   background-color: #e6e6e6; 
+  
+  
+WORK // nav item
+------------------------
+<span><b>Work //</b></span>
+
+nav ul.folionav span {
+  margin-left: 0;
+}
+
+
+@font-face for Galaxie Copernicus Book
+------------------------
+@font-face {
+  /* Galaxie Copernicus (Book weight) via Huge Inc:
+  http://hugeinc.github.io/styleguide/index.html */
+  font-family: 'Galaxie';
+  src: url('../fonts/GalaxieCopernicus-Book.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/GalaxieCopernicus-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/GalaxieCopernicus-Book.woff') format('woff'); /* Pretty Modern Browsers */
+}
