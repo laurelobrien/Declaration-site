@@ -2,13 +2,22 @@
 ---------------------------*/
 
 body {
-  padding: 100px 0 100px 0;
+  padding: 50px 0 100px 0;
 } 
 
 h1 {
-  font-family: 'lust', Goudy, Georgia, serif;
+  font-family: 'abril-fatface', Goudy, Georgia, serif;
   font-size: 3em;
   font-weight: 900;
+}
+
+h2 {
+  font-family: Garamond, Goudy, Georgia, sans-serif;
+  font-weight: 400;
+}
+
+h3, h4 {
+  font-family: 'brandon-grotesque', Helvetica, Arial, sans-serif;
 }
 
 hr {
@@ -26,12 +35,12 @@ hr.hrthin {
 }
 
 .container {
-  width: 65%;
-  margin: 0 17.5% 0 17.5%;
+  max-width: 90%;
+  margin: 0 5% 0 5%;
 }
 
 p {
-  font: 1.1em 'adobe-garamond-pro', Georgia, serif;
+  font: 16pt Garamond, Georgia, serif;
 }
 
 p a {
@@ -81,7 +90,7 @@ nav ul.miscnav {
 }
 
 nav ul li {
-  font: 1.2em Helvetica, Avenir, Arial, sans-serif;
+  font: 1.2em 'brandon-grotesque', Helvetica, Arial, sans-serif;
   display: inline;
   font-weight: 300;
   margin: 0 7px 0 7px;
@@ -116,6 +125,66 @@ header hr.hrthick {
 
 /* Homepage
 ---------------------------*/
+
+.col-twothirds {
+  width: 60%;
+  float: left;
+}
+
+.col-onethird {
+  width: 35%;
+  float: right;
+}
+
+#maincontent h2 {
+  font-size: 3em;
+  line-height: 1em;
+  margin: 0;
+}
+
+#maincontent h3 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #fff;
+  background-color: #000;
+  padding: 5px;
+  margin-bottom: 40px;
+  display: inline-block;
+  font-weight: 400;
+}
+
+#maincontent h4 {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+#maincontent h4 span {
+  text-transform: none;
+  font-weight: 300;
+}
+
+#foliocol .wrapper {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  -webkit-column-fill: auto;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -moz-column-fill: auto;
+  column-count: 2;
+  column-gap: 20px;
+  column-fill: auto;
+}
+
+article {
+  margin: 0;
+}
+
+img#folioimg {
+  width: 100%;
+  margin-bottom: 20px;
+}
 
 
 /* Footer
