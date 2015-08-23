@@ -2,7 +2,7 @@
 ---------------------------*/
 
 body {
-  padding: 50px 0 100px 0;
+  padding: 50px 0 150px 0;
 } 
 
 h1 {
@@ -12,17 +12,18 @@ h1 {
 }
 
 h2 {
-  font-family: Garamond, Goudy, Georgia, sans-serif;
+  font-family: 'adobe-caslon-pro', Goudy, Georgia, sans-serif;
   font-weight: 400;
 }
 
 h2 a {
   text-decoration: none;
   color: #000;
+  display: inline-block;
 }
 
-h2 a:hover {
-  border-bottom: solid 4px #46e2c4;
+a:hover {
+  opacity: 0.5;
 }
 
 h3, h4 {
@@ -49,17 +50,20 @@ hr.hrthin {
 }
 
 p {
-  font: 16pt Garamond, Georgia, serif;
+  font: 1.1em 'adobe-caslon-pro', Georgia, serif;
+  line-height: 1.45em;
 }
 
-p a, h4 a {
+p a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+h4 a {
   text-decoration: none;
   color: #000;
   border-bottom: solid 2px #46e2c4;
-}
-
-p a:hover, h4 a:hover {
-  color: #46e2c4;
 }
 
 ul {
@@ -120,7 +124,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #46e2c4;
+  opacity: 0.5;
 }
 
 hr.topline {
@@ -210,9 +214,27 @@ article p {
 
 #maincontent hr {
   margin: 0 0 40px 0;
-  clear: none;
 }
 
 
 /* Footer
 ---------------------------*/
+
+footer p {
+  font: 0.95em 'brandon-grotesque', helvetica;
+  margin: 1px 0 1px 0;
+}
+
+.col-three {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.left {
+  margin: 0 4.5% 0 0;
+}
+
+.right {
+  margin: 0 0 0 4.5%;
+}
