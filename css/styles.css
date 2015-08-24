@@ -2,7 +2,7 @@
 ---------------------------*/
 
 body {
-  padding: 60px 0 0 0;
+  padding: 60px 0 120px 0;
 } 
 
 .container {
@@ -11,13 +11,14 @@ body {
 }
 
 h1 {
-  font-family: 'abril-fatface', Goudy, Georgia, serif;
+  font-family: 'Playfair Display', Goudy, Georgia, serif;
   font-size: 3em;
   font-weight: 900;
+  letter-spacing: 0.03em;
 }
 
 h2 {
-  font-family: 'adobe-caslon-pro', Goudy, Georgia, sans-serif;
+  font-family: 'Lora', Goudy, Georgia, sans-serif;
   font-weight: 400;
 }
 
@@ -28,7 +29,7 @@ h2 a {
 }
 
 h3, h4 {
-  font-family: 'brandon-grotesque', Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
 
@@ -57,7 +58,7 @@ hr.hrthin {
 }
 
 p {
-  font: 1.1em 'adobe-caslon-pro', Georgia, serif;
+  font: 1em 'Lora', Georgia, serif;
   line-height: 1.45em;
 }
 
@@ -102,7 +103,7 @@ nav ul {
 }
 
 nav ul li {
-  font: 1em 'brandon-grotesque', Helvetica, Arial, sans-serif;
+  font: 1em 'Poppins', Helvetica, Arial, sans-serif;
   display: inline;
   font-weight: 400;
   margin: 0 7px 0 7px;
@@ -145,7 +146,7 @@ hr#toprule {
 }
 
 #maincontent h2 {
-  font-size: 3em;
+  font-size: 2.5em;
   line-height: 1em;
   margin: 0;
 }
@@ -160,12 +161,12 @@ h3#category {
 }
 
 #maincontent h4 {
-  font-weight: 400;
+  font-size: 0.9em;
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
 h4#readmore {
-  font-size: 1.2em;
+  font-size: 1em;
   margin-top: 20px;
 }
 
@@ -216,7 +217,7 @@ hr#colophonrule {
 }
 
 footer p {
-  font: 0.95em 'brandon-grotesque', Helvetica, Arial, sans-serif;
+  font: 0.8em 'Poppins', Helvetica, Arial, sans-serif;
   margin: 4px 0 4px 0;
 }
 
