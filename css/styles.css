@@ -5,6 +5,11 @@ body {
   padding: 50px 0 150px 0;
 } 
 
+.container {
+  max-width: 85%;
+  margin: 0 7.5% 0 7.5%;
+}
+
 h1 {
   font-family: 'abril-fatface', Goudy, Georgia, serif;
   font-size: 3em;
@@ -22,12 +27,19 @@ h2 a {
   display: inline-block;
 }
 
-a:hover {
-  opacity: 0.5;
-}
-
 h3, h4 {
   font-family: 'brandon-grotesque', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+h4 a {
+  text-decoration: none;
+  color: #000;
+  border-bottom: solid 2px #000;
+}
+
+a:hover {
+  opacity: 0.5;
 }
 
 hr {
@@ -44,11 +56,6 @@ hr.hrthin {
   border-bottom: solid 1px #000;
 }
 
-.container {
-  max-width: 85%;
-  margin: 0 7.5% 0 7.5%;
-}
-
 p {
   font: 1.1em 'adobe-caslon-pro', Georgia, serif;
   line-height: 1.45em;
@@ -60,15 +67,14 @@ p a {
   color: #000;
 }
 
-h4 a {
-  text-decoration: none;
-  color: #000;
-  border-bottom: solid 2px #000;
+.alignleft {
+  text-align: left;
+  margin-left: 0;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
+.alignright {
+  text-align: right;
+  margin-right: 0;
 }
 
 /* Header + Nav
@@ -89,13 +95,13 @@ header p {
   text-align: right;
 }
 
-nav ul.folionav {
+nav ul#folionav {
   float: left;
   margin: 0;
   padding: 5px 0 10px 0;
 }
 
-nav ul.miscnav {
+nav ul#miscnav {
   float: right;
   margin: 0;
   padding: 5px 0 10px 0;
@@ -110,11 +116,11 @@ nav ul li {
   letter-spacing: 0.03em;
 }
 
-nav ul.folionav li.leftside {
+nav ul#folionav li.alignleft {
   margin-left: 0;
 }
 
-nav ul.miscnav li.rightside {
+nav ul#miscnav li.alignright {
   margin-right: 0;
 }
 
@@ -127,24 +133,22 @@ nav ul li a:hover {
   opacity: 0.5;
 }
 
-hr.topline {
+hr#toprule {
   margin-bottom: 10px;
 }
-header hr.hrthick {
-  clear:both;
-}
+
 
 
 
 /* Homepage
 ---------------------------*/
 
-.col-twothirds {
+.col-left {
   width: 60%;
   float: left;
 }
 
-.col-onethird {
+.col-right {
   width: 35%;
   float: right;
 }
@@ -155,17 +159,13 @@ header hr.hrthick {
   margin: 0;
 }
 
-#maincontent h3 {
+h3#category {
   font-size: 1.2em;
   text-transform: uppercase;
   letter-spacing: 0.07em;
   color: #000;
   font-weight: 400;
   margin: 10px 0 10px 0;
-}
-
-.rightside {
-  text-align: right;
 }
 
 #maincontent h4 {
@@ -183,7 +183,7 @@ h4#readmore {
   font-weight: 300;
 }
 
-#foliocol .wrapper {
+.col-left .csscolumns {
   -webkit-column-count: 2;
   -webkit-column-gap: 20px;
   -webkit-column-fill: auto;
@@ -203,13 +203,9 @@ article p {
   text-align: justify;
 }
 
-.wrapper img {
+img#folioimg {
   width: 100%;
   margin-bottom: 20px;
-}
-
-.wrapper a:hover {
-  opacity: 0.5;
 }
 
 #maincontent hr {
@@ -221,11 +217,11 @@ article p {
 ---------------------------*/
 
 footer p {
-  font: 0.95em 'brandon-grotesque', helvetica;
+  font: 0.95em 'brandon-grotesque', Helvetica, Arial, sans-serif;
   margin: 4px 0 4px 0;
 }
 
-footer .wrapper {
+footer#colophon {
   margin-top: 30px;
 }
 
@@ -235,10 +231,10 @@ footer .wrapper {
   vertical-align: top;
 }
 
-.left {
+.col-three#left {
   margin: 0 4.5% 0 0;
 }
 
-.right {
+.col-three#right {
   margin: 0 0 0 4.5%;
 }
