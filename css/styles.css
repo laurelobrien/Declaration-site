@@ -2,7 +2,7 @@
 ---------------------------*/
 
 body {
-  padding: 50px 0 150px 0;
+  padding: 60px 0 0 0;
 } 
 
 .container {
@@ -95,22 +95,16 @@ header p {
   text-align: right;
 }
 
-nav ul#folionav {
-  float: left;
+nav ul {
+  text-align: center;
   margin: 0;
-  padding: 5px 0 10px 0;
-}
-
-nav ul#miscnav {
-  float: right;
-  margin: 0;
-  padding: 5px 0 10px 0;
+  padding: 5px 0 4px 0;
 }
 
 nav ul li {
-  font: 1.2em 'brandon-grotesque', Helvetica, Arial, sans-serif;
+  font: 1em 'brandon-grotesque', Helvetica, Arial, sans-serif;
   display: inline;
-  font-weight: 300;
+  font-weight: 400;
   margin: 0 7px 0 7px;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -120,10 +114,6 @@ nav ul#folionav li.alignleft {
   margin-left: 0;
 }
 
-nav ul#miscnav li.alignright {
-  margin-right: 0;
-}
-
 nav ul li a {
   text-decoration: none;
   color: #000;
@@ -131,6 +121,7 @@ nav ul li a {
 
 nav ul li a:hover {
   opacity: 0.5;
+  font-weight: 400;
 }
 
 hr#toprule {
@@ -144,12 +135,12 @@ hr#toprule {
 ---------------------------*/
 
 .col-left {
-  width: 60%;
+  width: 48%;
   float: left;
 }
 
 .col-right {
-  width: 35%;
+  width: 48%;
   float: right;
 }
 
@@ -200,7 +191,7 @@ article {
 }
 
 article p {
-  text-align: justify;
+  text-align: left;
 }
 
 img#folioimg {
@@ -216,25 +207,29 @@ img#folioimg {
 /* Footer
 ---------------------------*/
 
+footer {
+  margin-bottom: 50px;
+}
+
+hr#colophonrule {
+  margin-bottom: 20px;
+}
+
 footer p {
   font: 0.95em 'brandon-grotesque', Helvetica, Arial, sans-serif;
   margin: 4px 0 4px 0;
 }
 
-footer#colophon {
-  margin-top: 30px;
-}
-
 .col-three {
-  width: 30%;
-  display: inline-block;
+  width: 48%;
   vertical-align: top;
+  margin: 0;
 }
 
-.col-three#left {
-  margin: 0 4.5% 0 0;
+.col-three#credits {
+  float: left;
 }
 
-.col-three#right {
-  margin: 0 0 0 4.5%;
+.col-three#links {
+  float: right;
 }
