@@ -234,3 +234,73 @@ footer p {
 .col-three#links {
   float: right;
 }
+
+
+
+/* Media Queries : medium devices
+---------------------------*/
+
+@media screen and (max-width: 768px) {
+  .col-left, .col-right {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+}
+
+
+
+/* Media Queries : small devices
+---------------------------*/
+
+@media screen and (max-width: 320px) {
+  .col-left {
+    margin: 0 0 30px 0;
+  }
+  
+  .col-left .csscolumns {
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  }
+  
+  header h1 {
+    font-size: 3em;
+  }
+  
+  nav li#navbreak {
+    display: none;
+  }
+  
+  nav ul {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 5px;
+    -webkit-column-fill: auto;
+    -moz-column-count: 2;
+    -moz-column-gap: 5px;
+    -moz-column-fill: auto;
+    column-count: 2;
+    column-gap: 5px;
+    column-fill: auto;
+    text-align: left;
+  }
+  
+  nav ul li {
+    display: block;
+    margin: 0;
+  }
+  
+  div#credits {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+  
+  div#links {
+    display: none;
+  }
+  
+  body {
+    padding: 40px 0 80px 0;
+  }
+}
